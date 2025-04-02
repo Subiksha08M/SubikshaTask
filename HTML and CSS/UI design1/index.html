@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <link rel="stylesheet" href="style/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="header">
+                 <img class="doctor_symbol" src="assets/icon.png">
+                 <h1 class="health_city">HEALTH CITY</h1>
+                 <h1 class="hospital">HOSPITAL</h1> 
+                 <p class="conset_form">Vaccination Consent Form</p>
+                 <p class="information">Patient Information</p>
+         </div>
+         <form>
+            <div class="legal_name">
+               <label for="name">Full Legal Name<span>*</span></label>
+               <input type="text" id="name" name="legal_name" class="inputField" autocomplete="off">
+            </div>
+            <div class="date_of_birth">
+               <label for="dob">Date of Birth <span>*</span></label>
+               <input type="text" id="dob" class="inputField" placeholder="DD    /  MM   /   YYYY" autocomplete="off" name="dob">
+               <div class="calender">
+                 <img class="calender_img" src="assets/calender_icon.png">
+               </div>
+             </div>
+            <div class="medical_number">
+               <label for="medicalnumber">Medical number(if known)</label>
+               <input type="text" id="medicalnumber" class="inputField" autocomplete="off" name="medicalNumber">
+            </div>
+            <div class="mobile">
+               <label for="phoneno">Phone Number<span>*</span></label>
+               <input type="text" id="phoneno" class="inputField" autocomplete="off" name="mobile_no">
+            </div>
+            <div class="email_id">
+               <label for="email">Email Address<span>*</span></label>
+               <input type="email" id="email" class="inputField" autocomplete="off" name="emailId">
+            </div> 
+            <p class="address">Address<span>*</span></p>  
+            <div class="street">
+               <label for="street">Street<span>*</span></label>
+               <input type="text"  class="address_input" autocomplete="off" name="street">
+            </div> 
+            <div class="city">
+               <label for="city">City/Suburb</label>
+               <input type="text"  class="address_input" autocomplete="off" name="city">
+            </div> 
+            <div class="state">
+               <label for="state">State<span>*</span></label>
+               <input type="text"  class="address_input" autocomplete="off" name="state">
+            </div> 
+            <div class="zipcode">
+               <label for="zipcode">Zip/Post Code<span>*</span></label>
+               <input type="text" class="address_input" autocomplete="off" name="zipcode">
+            </div>  
+            <div class="country">
+               <label for="country">Country<span>*</span></label>
+               <input type="text" class="address_input" autocomplete="off" name="country"> 
+            </div>  
+          </form>
+      </div>
+   </body>
+</html>

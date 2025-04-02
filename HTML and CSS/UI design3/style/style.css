@@ -1,0 +1,167 @@
+.container{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-width: 1px;
+}
+.streetRow,.stateRow{
+    gap: 10px;
+}
+.image{
+    text-align: center;
+}
+.phoneInputField,.emailInputField,.inputField{
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid #d4e5d4; 
+}
+.phoneInputField,.emailInputField,.countryInputField,.addressInputField,.selectInputField{
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d4e5d4; 
+}
+.phoneInputField,.emailInputField{
+    width: 95%;
+    margin-bottom: 16px;
+    margin-left: 14px;
+}
+.countryInputField{
+    width: 95%;
+    margin-bottom: 25px;
+    margin-left: 14px;
+    margin-bottom:32px;
+}
+.addressInputField{
+    padding: 4px;
+    width: 19.125rem;
+    margin-left: 14px;
+}
+.selectInputField{
+    padding: 16px 20px;
+    width:  95%;
+    background-color: #f8f8f8;
+    color: #6d7474;
+    margin-left: 14px;
+    margin-top: 11px;
+    margin-bottom: 16px;
+}
+.inputField{
+    margin-right: 12px;
+    width: 19.438rem;
+    margin-left: 14px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #d4e5d4; 
+}
+.textAreaClass{
+    margin-left: 16px;
+    margin-top: 11px;
+    background-color: #f8f8f8;
+    border: none;
+    resize: vertical;
+    width: 95%;
+}
+.labelClass{
+    margin-left: 16px;
+}
+.flexClass{
+    display: flex;
+}
+.maximumAmount{
+    margin-bottom: 8px;
+    margin-left: 37.688rem;
+}
+.limitAmount{
+    margin-left: 8px;
+    margin-right: 2px;
+}
+.currentAddress{
+    font-size: 21px;
+    margin-left: 10px;
+}
+.additional,.budget,.property,.location,.likeToViewing,.interest,.country,.zipCode,.state,.city,.street,.phone,.email{
+    margin-top: 14px;
+}
+.font{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+} 
+.firstName,.lastName{
+    border-width: 1px;
+    border-left: #d4e5d4;
+    border-style: solid;
+}
+input::placeholder{
+    word-spacing: 25px;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 85%;
+    height: 9px;
+    border-radius: 5px;
+    background: #2c2469;
+    outline: none;
+    transition: opacity .2s;
+}
+.calenderIcon{
+    margin-top: 40px;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #2c2469;
+    cursor: pointer;
+}
+.submit{
+    background-color:   #2c2469;
+    width: 100%;
+    color: white;
+    height: 33px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.borderClass{
+    border-width: 1px;
+    border-color:#d4e5d4;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+.form{
+    margin-top: 44px;
+}
+body{
+    margin: auto 0px;
+}
+.calIcon{
+    width: 39px;
+}
+.triangleIcon{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #000;
+    transition: transform ease-in-out 0.3s;
+    position: absolute;
+    right: 45px;
+    bottom: 39px;
+}
+select{
+    appearance: none;
+}
+.location,.budget,.property{
+    position: relative;
+}
+.addressBorder{
+    border-width: 1px;
+    border-color:#d4e5d4;
+    border-style: solid;
+    padding-top: 5px;
+}
+input:focus{
+    outline: none;
+}

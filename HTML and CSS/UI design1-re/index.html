@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header flexbox_class">
+            <div class="image flexbox_class">
+                <img src="assets/icon.png">
+            </div>
+            <div class="hospital_name">
+                <div class="health_city" class="font"><h1>HEALTH CITY</h1></div>
+                <div class="hospital" class="font"><h1>HOSPITAL</h1></div>
+            </div>
+        </div>
+        <div class="form_info">
+            <p class="consent_form">Vaccination Consent Form</p>
+            <p class="information">Patient Information</p>
+        </div>
+       
+        <div class="form">
+            <div class="legal_name_row">
+                <div class="name">
+                    <label for="name_field" class="label_font">Full Legal Name<span>*</span></label>
+                    <div><input type="text" class="full_width" id="name_field"></div>
+                </div>
+            </div>
+            <div class="dob_row flexbox_class gap_class">
+                <div class="dateOfBirth flexbox_class">
+                    <div class="date_of_birth">
+                        <label for="dob" class="label_font">Date of Birth<span>*</span></label>
+                        <div><input type="text" class="dob_input" placeholder="DD    /  MM   /   YYYY" autocomplete="off" name="dob" id="dob"></div>
+                    </div>
+                    <div class="calender_icon">
+                        <img src="assets/calender_icon.png">
+                    </div>
+                </div>
+                <div class="medical_number">
+                    <label for="medicalnumber" class="label_font">Medical number(if known)</label>
+                    <div><input type="text"  class="input_field" id="medicalnumber"></div>
+                </div>
+            </div>
+            <div class="phone_number_row flexbox_class gap_class">
+                <div class="mobile">
+                    <label for="phoneno" class="label_font">Phone Number<span>*</span></label>
+                    <div><input type="text" class="input_field" id="phoneno"></div>
+                </div>
+                <div class="email">
+                    <label for="email" class="label_font">Email Address<span>*</span></label>
+                    <div><input type="text" class="input_field" id="email"></div>
+                </div>
+            </div>
+            <p class="address">Address<span>*</span></p>  
+            <div class="street_row flexbox_class gap_class">
+                <div class="street">
+                    <label for="street_field" class="address_font">Street<span>*</span></label>
+                    <div><input type="text" class="address_input" id="street_field"></div>
+                </div>
+                <div class="city">
+                    <label for="city_field" class="address_font">City/Suburb</label>
+                    <div><input type="text" class="address_input" id="city_field"></div>
+                </div>
+            </div>
+            <div class="state_row flexbox_class gap_class">
+                <div class="state">
+                    <label for="state_field" class="address_font">State<span>*</span></label>
+                    <div><input type="text" class="address_input" id="state_field"></div>
+                </div>
+                <div class="zip_code">
+                    <label for="zipcode" class="address_font">Zip/Post Code<span>*</span></label>
+                    <div><input type="text" class="address_input" id="zipcode"></div>
+                </div>
+            </div>
+            <div class="country_row">
+                <div class="country">
+                    <label for="country_field" class="address_font">Country<span>*</span></label>
+                    <div><input type="text" class="country_input_field" id="country_field"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

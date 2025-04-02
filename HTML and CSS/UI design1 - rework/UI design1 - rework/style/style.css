@@ -1,0 +1,103 @@
+.container{
+    width: fit-content;
+    background-color: #3c576c;
+    color: white;
+    margin: auto;
+}
+.header{
+    justify-content: center;
+    padding-top: 3.938rem;
+}
+.information{
+    text-align: center;
+}
+.hospital{
+    font-size: 23px;
+}
+.healthCity{
+    font-size: 17px;
+}
+.consentForm{
+    font-size: 2.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 3.563rem;
+} 
+.healthCity h1, .hospital h1 {
+    margin: 11px;
+    padding: 0px;
+}
+.flexboxClass{
+    display: flex;
+}
+.font,p,.labelFont{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.detailFontSize{
+    font-size: 14px;
+}
+.addressFontSize{
+    font-size: 12px;
+}
+input:focus{
+    outline: none;
+}
+.form{
+    margin: 2.625rem;
+    padding-bottom: 29px;
+    padding-left: 2.188rem;
+    padding-right: 2.188rem;
+}
+.form > div{
+    margin-top: 20px;
+}
+.gapClass{
+    gap: 20px;
+}
+.addressInput,.inputField{
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+    background-color: #3c576c;
+    border-bottom: 2px solid  #7c8d99;
+}
+.input_box_style{
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+    background-color: #3c576c;
+    border-bottom: 2px solid  #7c8d99;
+}
+.inputField{
+    padding: 4px 19px;
+}
+.addressInput,.inputField{
+    width: 18.75rem;
+}
+.nameFullWidth{
+    padding-bottom: 10px;
+}
+.dobInput{
+    padding: 4px 19px;
+    width: 14.188rem;
+}
+.countryInputField,.nameFullWidth{
+    width: 100%;
+}
+.calenderIcon{
+    margin-top: 1.125rem;
+}
+div,.address{
+    color: rgb(191 209 218);
+}
+.healthCity,.hospital,.consentForm,.info,.address{
+    color: white;
+}
+.address{
+    font-size: 13px;
+}
+.info{
+    font-size: 21px;
+}
+.address,.healthCity,.hospital{
+    font-family: sans-serif;
+}

@@ -1,0 +1,178 @@
+h1,h2,h3,p,.information{
+    color: white;
+}
+div,.address{
+    color: rgb(191 209 218);
+}
+label,.address,.health_city,.hospital{
+    font-family: sans-serif;
+}
+#dob{
+    width:17.4375rem;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.calender_img{
+    height: 33px;
+    width: 71px;
+}
+.calender{
+    display: inline-block;
+    position: relative;
+    top: 23px;
+}
+.health_city,.hospital{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.health_city{
+    display: inline-block;
+    width: 18.4375rem;
+    font-size: 44px;
+    position: relative;
+
+    bottom: 92px;
+    left: 10px;
+}
+.hospital{
+    display: block;
+    width:  17.4375rem;
+    margin: 0px;
+    position: relative;
+    font-size: 59px;
+    bottom: 7.9375rem;
+    left:61px;
+}
+.conset_form{
+    border-width: 1px;
+    border-style: solid;
+    border-color: brown;
+    position: relative;
+    left: 6px;
+    bottom: 87px;
+    font-size: 34px;
+    font-family: sans-serif;
+}
+.information{
+    font-size: 25px;
+    margin-top: 70px;
+    position: relative;
+    bottom: 84px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+body{
+    justify-items: center;
+}
+.inputField{
+    background-color:  #3c576c;
+    width: 100%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid  #7c8d99;
+}
+.legal_name{
+    display: block;
+    width: 45.6875rem;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.header{
+    justify-items: center;
+}
+h2,.information{
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+.date_of_birth{
+    display: inline-block;
+    width: 22.1875rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.medical_number{
+    display: inline-block;
+    width: 21.875rem;
+    margin-left: 40px;
+    position: relative;
+    right:20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.address{
+    width: 45.875rem;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.mobile{
+    display: inline-block;
+    width:  22.1875rem;
+    margin: 20px;
+    font-size: 14px;
+}
+.email_id{
+    display: inline-block;
+    width:  22.1875rem;
+    font-size: 14px;
+}
+.city{
+    position: relative;
+    right: 20px;
+    display: inline-block;
+    width: 22.1875rem;
+    font-size: 12px;
+}
+.street{
+    display: inline-block;
+    width: 22.1875rem;
+    margin-right: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.state{
+    display: inline-block;
+    width: 22.1875rem;
+    margin: 20px;
+    font-size: 12px;
+}
+.zipcode{
+    display: inline-block;
+    width: 22.1875rem;
+    font-size: 12px;
+}
+.country{
+    display: block;
+    width: 46.1875rem;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.container {
+    background-color:  #3c576c;
+    width: 49.375rem;
+    padding: 81px;
+    justify-content: center;
+    position: relative;
+    top: 18px;
+    padding-bottom: 44px;
+}
+.address_input{
+    background-color:  #3c576c;
+    width: 100%;
+    padding: 3px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid  #7c8d99;
+}
+
+

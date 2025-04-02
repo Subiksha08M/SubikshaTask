@@ -1,0 +1,128 @@
+.container{
+    margin: auto;
+    background-color: white;
+    padding-right: 2.938rem;
+}
+.input_field{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 2.1875rem;
+    padding: 8px;
+}
+.cash,.radio_cheque,.demand_draf,.radio_button,.align_label,.submit_row,.first_name_row,.last_name_row,.company_row,.email_row,.phone_no_row,.meal,.payment_label,.image,.container{
+    display: flex;
+}
+.payment,.input_field{
+    width:18.75rem;
+}
+.required_field_color{
+    color: red;
+}
+.detail{
+    padding-bottom: 3px;
+}
+label{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.main_container{
+    background-color: black;
+    margin: 0px auto;
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 4.125rem;
+    padding-right: 6.438rem;
+    padding-left: 6.438rem;
+}
+.lunch_detail{
+    font-size: 11px;
+    text-decoration: underline;
+    text-decoration-color:#d9cece;
+} 
+.payment_detail{
+    border-bottom: 3px solid #d9cece;
+    font-size: 11px;
+    padding-bottom: 1px;
+}
+.meal,.payment_label{
+    gap: 10px;
+    justify-content: space-between;
+}
+.slider {
+    -webkit-appearance: none;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #329e5e 50% ,#e7f5ec 50%); 
+}
+input[type=range]::-webkit-slider-thumb {
+    position: relative;
+    top: 8px;
+    height: 50px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: transparent;
+    background: url(../assets/range_slider_icon.png) center center no-repeat;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.first_name_row,.last_name_row,.company_row,.email_row,.phone_no_row,.donate_us_row{
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 36px;
+}
+.submit_row{
+    justify-content: end;
+    margin-top: 30px;
+    gap: 15px;
+}
+.submit ,.reset{
+    background-color: #329e5e;
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 13px  1.5625rem;
+    font-weight: bold;
+    font-size: 11px;
+    width: 7.563rem;
+}
+.reset{
+    background: transparent;
+    color: #00AA66;
+    border: 1px solid #dbdbdb;
+    padding: 13px  1.5625rem;
+    border-radius: .375em;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #525151;
+ }
+.form{
+    padding: 25px;
+}
+input[type="radio"] {
+    accent-color: green;
+}
+.radio_button{
+    gap: 23px;
+    margin-top: 6px;
+    font-size: 15px;
+}
+.align_label{
+    margin-top:2px ;
+}
+input[type="radio"] {
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
