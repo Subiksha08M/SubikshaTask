@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="container">
+            <div class="image">
+                <img src="assets/image.png">
+            </div>
+            <div class="form"> 
+                <div class="first_name_row">
+                    <div class="first_name"> 
+                        <label for="name">First Name<span class="required_field_color">*</span></label>
+                        <div>
+                            <input type="text" class="input_field">
+                        </div>
+                    </div>
+                    <div class="meal_perference">
+                        <div class="meal">
+                            <div><label for="meal_perference">Meal Perference</label></div>
+                            <div class="detail"> 
+                                <span class="lunch_detail">Lunch detail</span>
+                            </div>
+                        </div>
+                        <div>
+                            <select class="input_field">
+                                <option value="vegetarian">Vegetarian</option>
+                            </select>
+                        </div>   
+                    </div>
+                </div>
+                <div class="last_name_row">
+                    <div class="last_name">
+                        <label for="lastName">Last name<span class="required_field_color">*</span></label>
+                        <div>
+                            <input type="text" class="input_field">
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <div class="payment_label">
+                            <div>
+                                <label for="payment_mode">Payment Mode</label>
+                            </div>
+                            <div class="detail">
+                                <span class="payment_detail">payment detail</span>
+                            </div>
+                        </div>
+                        <div class="radio_button">
+                            <div class="cash">
+                                <input type="radio" name="payment" checked> <span class="align_label">cash</span>
+                            </div>
+                           
+                            <div class="radio_cheque">
+                                <input type="radio" name="payment"><span class="align_label">cheque</span>
+                            </div>
+                            <div class="demand_draf">
+                                <input type="radio" name="payment"><span class="align_label">Demand Draf</span>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+             
+                <div class="company_row">
+                    <div class="company">
+                        <label for="company">Company<span class="required_field_color">*</span></label>
+                        <div><input type="text" class="input_field"> </div> 
+                    </div> 
+                    <div class="cheque">
+                        <label for="dd/cheque">DD/Cheque no.</label>
+                        <div><input type="text" class="input_field"></div>
+                    </div>
+                </div>
+                <div class="email_row">
+                    <div class="email">
+                        <label for="email">email<span class="required_field_color">*</span></label>
+                        <div><input type="text" class="input_field"> </div>
+                    </div>
+                    <div class="drawn_on">
+                        <label for="drawn_on">Drawn On ( Bank Name)</label>
+                        <div><input type="text" class="input_field"></div>
+                    </div>
+                </div>
+                <div class="phone_no_row">
+                    <div class="mobile_no">
+                        <label for="phone_number">Phone Number<span class="required_field_color">*</span></label>
+                        <div><input type="text" class="input_field"> </div>
+                    </div>
+                    <div class="payable">
+                        <label for="payableeat">payableat</label>
+                        <div><input type="text" class="input_field"></div>
+                    </div>
+                </div>
+                <div class="donate_us_row">
+                    <div class="donate_us">
+                        <label>Donate us</label>
+                        <div>
+                            <input type="range" min="1" max="100" value="50" class="slider">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit_row">
+                    <button type="button" class="submit">SUBMIT</button>
+                    <button type="button" class="reset">RESET</button>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

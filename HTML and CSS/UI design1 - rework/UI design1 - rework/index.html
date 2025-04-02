@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header flexboxClass">
+            <div class="image">
+                <img src="assets/icon.png">
+            </div>
+            <div class="hospital_name">
+                <div class="healthCity" class="font"><h1>HEALTH CITY</h1></div>
+                <div class="hospital" class="font"><h1>HOSPITAL</h1></div>
+            </div>
+        </div>
+        <div class="information">
+            <p class="consentForm">Vaccination Consent Form</p>
+            <p class="info">Patient Information</p>
+        </div>
+        <div class="form">
+            <div class="legal_name_row">
+                <div class="name">
+                    <label for="name" class="labelFont detailFontSize">Full Legal Name<span>*</span></label>
+                    <div><input type="text" class="nameFullWidth input_box_style" id="name"></div>
+                </div>
+            </div>
+            <div class="dob_row gapClass flexboxClass">
+                <div class="dateOfBirth flexboxClass">
+                    <div class="date_of_birth">
+                        <label for="dob" class="labelFont detailFontSize">Date of Birth<span>*</span></label>
+                        <div><input type="text" class="dobInput input_box_style" id="dob" placeholder="DD    /  MM   /   YYYY" autocomplete="off" name="dob"></div>
+                    </div>
+                    <div class="calenderIcon">
+                        <img src="assets/calender_icon.png">
+                    </div>
+                </div>
+                <div class="medical_number">
+                    <label for="medicalnumber" class="labelFont detailFontSize">Medical number(if known)</label>
+                    <div><input type="text"  class="inputField input_box_style" id="medicalnumber"></div>
+                </div>
+            </div>
+            <div class="phone_number_row gapClass flexboxClass">
+                <div class="mobile">
+                    <label for="phoneno" class="labelFont detailFontSize">Phone Number<span>*</span></label>
+                    <div><input type="text" class="inputField input_box_style" id="phoneno"></div>
+                </div>
+                <div class="email">
+                    <label for="email_id" class="labelFont detailFontSize">Email Address<span>*</span></label>
+                    <div><input type="text" class="inputField input_box_style" id="email_id"></div>
+                </div>
+            </div>
+            <p class="address">Address<span>*</span></p>  
+            <div class="street_row gapClass flexboxClass">
+                <div class="street">
+                    <label for="street_field" class="labelFont addressFontSize">Street<span>*</span></label>
+                    <div><input type="text" class="addressInput input_box_style" id="street_field"></div>
+                </div>
+                <div class="city">
+                    <label for="city_field" class="labelFont addressFontSize">City/Suburb</label>
+                    <div><input type="text" class="addressInput input_box_style" id="city_field"></div>
+                </div>
+            </div>
+            <div class="state_row gapClass flexboxClass">
+                <div class="state">
+                    <label for="state_field" class="labelFont addressFontSize">State<span>*</span></label>
+                    <div><input type="text" class="addressInput input_box_style" id="state_field"></div>
+                </div>
+                <div class="zip_code">
+                    <label for="zipcode_field" class="labelFont addressFontSize">Zip/Post Code<span>*</span></label>
+                    <div><input type="text" class="addressInput input_box_style" id="zipcode_field"></div>
+                </div>
+            </div>
+            <div class="country_row">
+                <div class="country">
+                    <label for="country_field" class="labelFont addressFontSize">Country<span>*</span></label>
+                    <div><input type="text" class="countryInputField input_box_style" id="country_field"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

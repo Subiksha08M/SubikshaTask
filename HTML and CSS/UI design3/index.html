@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="assets/image.png">
+        </div>
+        <div class="form">
+            <div class="firstNameRow flexClass">
+                <div class="borderClass">
+                    <label for="firstName" class="font labelClass">First name?<span>*</span></label>
+                    <div><input type="text" class="inputField" id="firstName"></div>
+                </div>
+                <div class="borderClass">
+                    <label for="lastName" class="font labelClass">Last name<span>*</span></label>
+                    <div><input type="text" class="inputField" id="lastName"></div>
+                </div>
+            </div>
+            <div class="emailRow borderClass">
+                <div class="email">
+                    <label for="emailId" class="font labelClass">Email address<span>*</span></label>
+                    <div><input type="text" class="emailInputField" id="emailId"></div>
+                </div>
+            </div>
+            <div class="phoneRow borderClass">
+                <div class="phone">
+                    <label for="phoneContact" class="font labelClass">Phone contact<span>*</span></label>
+                    <div><input type="text" class="phoneInputField" id="phoneContact"></div>
+                </div>
+            </div>
+        </div>
+        <div class="address addressBorder">
+            <p class="currentAddress">Current address<span>*</span></p>
+            <div class="streetRow flexClass">
+                <div class="street">
+                    <label for="streetField" class="labelClass">Street<span>*</span></label>
+                    <div><input type="text" class="addressInputField" id="streetField"></div>
+                </div>
+                <div class="city">
+                    <label for="cityField" class="labelClass">City/Suburb</label>
+                    <div>
+                        <input type="text" class="addressInputField" id="cityField">
+                    </div>
+                </div>
+            </div>
+            <div class="stateRow flexClass">
+                <div class="state">
+                    <label for="stateField" class="labelClass">State<span>*</span></label>
+                    <div><input type="text" class="addressInputField" id="stateField"></div>
+                </div>
+                <div class="zipCode">
+                    <label for="zipCodeField" class="labelClass">Zip/Post Code<span>*</span></label>
+                    <div><input type="text" class="addressInputField" id="zipCodeField"></div>
+                </div>
+            </div>
+            <div class="country_row">
+                <div class="country">
+                    <label for="countryField" class="labelClass">Country<span>*</span></label>
+                    <div><input type="text" class="countryInputField" id="countryField"></div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="interest">
+                    <label for="interestField" class="font labelClass">Please list the property or properties of
+                        interest<span>*</span></label>
+                    <div><textarea class="textAreaClass" cols="80" rows="9" id="interestField"></textarea></div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="viewing flexClass">
+                    <div class="likeToViewing">
+                        <label for="viewingField" class="font labelClass">When would you like a
+                            viewing?<span>*</span></label>
+                        <div><input type="text" class="inputField" placeholder="DD / MM / YYYY " id="viewingField">
+                        </div>
+                    </div>
+                    <div class="calenderIcon">
+                        <div><img class="calIcon" src="assets/calender_icon.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="location">
+                    <label for="perferenceLocation" class="font labelClass">Preference of
+                        location?<span>*</span></label>
+                    <div>
+                        <span class="triangleIcon"></span>
+                        <select name="location" class="selectInputField" id="perferenceLocation">
+                            <option value="select" selected>Select...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="property">
+                    <label for="kindOfProperty" class="font labelClass">What kind of property are you looking
+                        for?<span>*</span></label>
+                    <div>
+                        <span class="triangleIcon"></span>
+                        <select name="property" class="selectInputField" id="kindOfProperty">
+                            <option value="select" selected>Select...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="budget">
+                    <label for="budgetField" class="font labelClass">What is your budget?<span>*</span></label>
+                    <div>
+                        <span class="triangleIcon"></span>
+                        <select name="property" class="selectInputField" id="budgetField">
+                            <option value="select" selected>Select...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="borderClass">
+                <div class="additional">
+                    <label for="additionalComment" class="font labelClass">Additional comment or
+                        requests<span>*</span></label>
+                </div>
+                <div>
+                    <span class="maximumAmount">100</span>
+                </div>
+                <div class="range">
+                    <div>
+                        <span class="limitAmount">50000</span> <input type="range" min="0" max="100" value="100"
+                            class="slider"><span>100</span>
+                    </div>
+                </div>
+            </div>
+            <div class="submitRow">
+                <div class="submit">
+                    <div>
+                        <button class="submit">Submit Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
