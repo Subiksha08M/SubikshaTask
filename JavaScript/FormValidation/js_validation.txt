@@ -1,0 +1,12 @@
+Create a registration form with following fields.
+
+Fields marked as (*) are mandatory.
+
+1. *Firstname
+2. *Lastname
+3. *Email   (Do email validation - allow only valid email id's)
+4. *Phone (Do numeric validation)
+5. Zipcode (Do numeric validation)
+6. Address
+
+Please do a Validation when user submit the registration form.

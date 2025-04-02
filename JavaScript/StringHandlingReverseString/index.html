@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h4 class="text-primary">Reverse String</h4>
+        <div class="card">
+            <div class="card-body bg-info-subtle shadow p-4">
+                <div class="row">
+                    <div class="col-lg-12 form-group">
+                        <label for="sentence">Enter the string</label>
+                        <input type="text" id="inputField" class="input-lg form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-sm-6">
+                        <div id="validationError" class="alert alert-danger">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-sm-6">
+                        <div id="result" class="alert alert-success">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <button type="button" class="btn btn-success" onclick="reverseString()">Find String</button>
+                        
+                    </div>
+                    <div class="col-lg-6">
+                        <button type="button" class="btn btn-secondary" id="resetButton" onclick="reset()">Reset String</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

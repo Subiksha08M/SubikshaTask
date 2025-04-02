@@ -1,0 +1,12 @@
+.row{
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+.container{
+    padding:5.625rem;
+}
+#validationError,#result{
+    display: none;
+}

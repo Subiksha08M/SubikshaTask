@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <h4 class="text-primary">Display Date and Time</h4>
+        </div>
+        <div class="container">
+            <div class="imageRow divWidth">
+                <div class="image">
+                    <img src="Image/Calender.png" alt="calenderImg">
+                </div>
+            </div>
+            <div class="buttonRow divWidth">
+                <h6>Current Date And Time Of Your System</h6>
+                <button class="btn btn-success" onclick="dateTime('dateTime')">Show</button>
+                <button class="btn btn-warning text-light" onclick="dateTime('clear')">Clear</button>
+            </div>
+            <div class="date divWidth">
+                <div class="dateTime">
+                    <div class="yearColumn fieldBackGround">
+                        <div class="borderClass text-danger">Year</div>
+                        <div id="year" class="borderClass"></div>
+                    </div>
+                    <div class="monthColumn fieldBackGround">
+                        <div class="borderClass text-danger">Month</div>
+                        <div id="month" class="borderClass"></div>
+                    </div>
+                    <div class="dateColumn fieldBackGround">
+                        <div class="borderClass text-danger">Date</div>
+                        <div id="date" class="borderClass"></div>
+                    </div>
+                    <div class="hourColumn fieldBackGround">
+                        <div class="borderClass text-danger">Hour</div>
+                        <div id="hour" class="borderClass"></div>
+                    </div>
+                    <div class="minuteColumn fieldBackGround">
+                        <div class="borderClass text-danger">Minute</div>
+                        <div id="minute" class="borderClass"></div>
+                    </div>
+                    <div class="secondsColumn fieldBackGround">
+                        <div class="borderClass text-danger">Seconds</div>
+                        <div id="second" class="borderClass"></div>
+                    </div>
+                    <div class="millisecondColumn fieldBackGround">
+                        <div class="borderClass text-danger">Millisecond</div>
+                        <div id="Millisecond" class="borderClass"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="gmt">
+                <h6>GMT + 0530 (Indian Standard Time)</h6>
+                <div class="localDate divWidth">
+                    <div>
+                        <div class="borderClassGmt fieldBackGround gmtTextColor">Local Date & Time</div>
+                    </div>
+                    <div>
+                        <div id="localValue" class="borderClassGmt valueHeight fieldBackGround"></div>
+                    </div>
+                </div>
+                <div class="utc divWidth">
+                    <div>
+                        <div class="borderClassGmt fieldBackGround  gmtTextColor">UTC</div>
+                    </div>
+                    <div>
+                        <div id="utcValue" class="borderClassGmt valueHeight fieldBackGround"></div>
+                    </div>
+                </div>
+                <div class="utcMilliseconds divWidth">
+                    <div>
+                        <div class="borderClassGmt  gmtTextColor fieldBackGround">UTC Milliseconds</div>
+                    </div>
+                    <div>
+                        <div id="utcMillisecondValue" class="borderClassGmt fieldBackGround  valueHeight"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

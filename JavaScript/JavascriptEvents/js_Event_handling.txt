@@ -1,0 +1,2 @@
+Create a page with content if users trying to copy the content by using mouse right click 
+at that time show alert like “Mouse Right Click Disabled!”

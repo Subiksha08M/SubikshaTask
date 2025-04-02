@@ -1,0 +1,1 @@
+By using Javascript how to get full URL of your current document

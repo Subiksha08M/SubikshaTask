@@ -1,0 +1,16 @@
+.row{
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+.card{
+    margin:auto;
+    width: 30%;
+}
+.container{
+    padding:90px;
+}
+#validationError,#result{
+    display: none;
+}
