@@ -1,0 +1,29 @@
+.row{
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+.card{
+    margin:auto;
+    width: 30%;
+    min-height: 14rem;
+}
+.card-body{
+    background-color: rgb(174, 205, 221);
+}
+.container{
+    padding:5.625rem;
+}
+#validationError,#result{
+    margin-bottom: 41px;
+    display: none;
+}
+.btnDesign{
+    position: absolute;
+    bottom: 0;
+}
+.btnSize{
+    width:13.125rem;
+    margin-right: 10px;
+}

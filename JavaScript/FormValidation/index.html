@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="assets/JS/script.js"></script>
+</head>
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="containerSubmitted">
+            <h4 class="d-flex justify-content-center mt-4 bg-primary-subtle">Form Validation</h4>
+            <form action="submitted.html" onsubmit="validation()"  class="mt-4">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label>First Name<span class="validationAsterisk">*</span></label>
+                            <input type="text" class="form-control inputField" id="firstName">
+                            <div id="nameError" class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <div class="form-group">
+                            <label>Last Name <span class="validationAsterisk">*</span></label>
+                            <input type="text" class="form-control inputField" id="lastName">
+                            <div id="lastNameError" class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <label>Email<span class="validationAsterisk">*</span></label>
+                        <input type="text" class="form-control inputField" id="email">
+                        <div id="emailError" class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <label>Phone<span class="validationAsterisk">*</span></label>
+                        <input type="text" class="form-control inputField" id="phone">
+                        <div id="phoneError" class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <label>Zipcode</label>
+                        <input type="text" class="form-control inputField" id="zipcode">
+                        <div id="zipcodeError" class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <label>Address</label>
+                        <textarea class="form-control inputField" id="address"></textarea>
+                        <div id="addressError" class="error"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3 mb-4 btnAlign">
+                        <input type="submit" class="btn btn-success" value="submit">
+                        <input type="reset" class="btn btn-info" onclick="resetButton()">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+By using Javascript how to get which mouse button was clicked?

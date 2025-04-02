@@ -1,0 +1,13 @@
+.row{
+    margin-bottom: 10px;
+}
+h4{
+    text-align: center;
+}
+.card{
+    margin:auto;
+    width: 37%;
+}
+.container{
+    padding:5.625rem;
+}

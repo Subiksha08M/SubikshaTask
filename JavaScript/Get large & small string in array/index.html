@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h4>Find the smallest and largest string</h4>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-12 form-group">
+                        <label for="sentence">Sentence</label>
+                        <input type="text" id="inputField" class="input-lg form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="validationError" class="alert alert-danger">
+                            <strong>Error!</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 btn-group">
+                        <button class="btn btn-primary btn-sm" onclick="findSmallestAndLargest()">Find Value</button>
+                    </div>
+                    <div class="col-6 btn-group">
+                        <button class="btn btn-secondary btn-sm" id="resetButton" onclick="reset()">Reset Input</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="result" class="alert alert-success">
+                            <strong>Success!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

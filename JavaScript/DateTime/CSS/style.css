@@ -1,0 +1,53 @@
+.container{
+    text-align: center;
+    background-color: #dbeb99;
+}
+.mainContainer{
+    background-color: #c8eea0;
+    width: fit-content;
+    margin: auto;
+    padding: 2.5rem;
+}
+.header{
+    text-align: center;
+    background-color: bisque;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 544px!important;
+    }
+}
+.dateTime{
+    display: flex;
+    margin-top: 10px;
+}
+.borderClass{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #1e90ff;
+    padding: 9px;
+}
+.localDate,.utc,.utcMilliseconds{
+    display: flex;
+}
+.localDate,.utc,.utcMilliseconds,.gmt{
+    margin-top: 10px;
+}
+.borderClassGmt{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #1e90ff;
+    width: 16.063rem;
+}
+.valueHeight{
+    height: 2rem;
+}
+.gmtTextColor{
+    color: blueviolet;
+}
+.fieldBackGround{
+    background-color: white;
+}
+.divWidth{
+    width: 31.25rem;
+}

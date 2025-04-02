@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/JS/script.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card shadow p-2 bg-primary-subtle h-100">
+            <div class="card-body">
+                <div class="card-title">
+                    <h4 class="text-primary bg-success-subtle">Add and Multiply</h4>
+                </div>
+                <div class="card-text">
+                    <label for="inputField">Input</label>
+                    <input type="text" class="form-control" id="inputField">
+                    <label for="outputField">Output</label>
+                    <input type="text" class="form-control" id="outputField" readonly>
+                    <div id="validationError">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-evenly p-4">
+                <button class="btn btn-success" onclick="arithmeticOperation('add')">Add</button>
+                <button class="btn btn-success" onclick="arithmeticOperation('multiply')">Multiply</button>
+                <button class="btn btn-success" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.validationAsterisk,.error {
+    color: red;
+}
+.container {
+    margin-top: 3.25rem;
+}
+.containerSubmitted{
+    padding: 15px;
+    background-color:rgb(194, 179, 207);
+}
+.inputField{
+    width:34rem!important;
+}
+.submit{
+    margin-top:8.375rem;
+    text-align: center;
+}
+.btnAlign{
+    margin-left: 35%
+}
+.error{
+    height: 20px;
+}
